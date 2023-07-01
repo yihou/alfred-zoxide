@@ -1,6 +1,6 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <div style="display: flex;">
-<img src="images/icon.png" style="margin: 40px 20px 0; width: 40px; height: 40px;" alt="Logo"/>
+<img src="images/icon.png" align="left" style="margin: 40px 20px 0; width: 40px; height: 40px;" alt="Logo"/>
 <h1>Alfred Zoxide</h1>
 </div>
 
