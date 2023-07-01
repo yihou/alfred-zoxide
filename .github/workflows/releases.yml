@@ -15,7 +15,10 @@ jobs:
           prerelease: false
           files: |
             LICENSE
-            src/Zoxide.alfredworkflow
+            */*.alfredworkflow
+      # Checkout to the repository so we can access the files
+      - uses: actions/checkout@v3
+      # Upload files to the release
       - name: Upload alfredworkflow to release
         uses: svenstaro/upload-release-action@v2
         with:
