@@ -20,8 +20,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: src/Zoxide.alfredworkflow
+          file: target/release/src/Zoxide.alfredworkflow
           asset_name: Zoxide.alfredworkflow
           tag: ${{ github.ref }}
           overwrite: true
-          body: "Zoxide Alfred Workflow"
