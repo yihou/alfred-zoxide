@@ -2,7 +2,7 @@ name: Automatic Tag Release
 on:
   push:
     tags:
-      - "v*"
+      - "*"
 jobs:
   tagged-release:
     name: "Tagged Release"
@@ -15,4 +15,13 @@ jobs:
           prerelease: false
           files: |
             LICENSE
-            *.alfredworkflow
+            src/Zoxide.alfredworkflow
+      - name: Upload alfredworkflow to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: src/Zoxide.alfredworkflow
+          asset_name: Zoxide.alfredworkflow
+          tag: ${{ github.ref }}
+          overwrite: true
+          body: "Zoxide Alfred Workflow"
