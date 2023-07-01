@@ -1,6 +1,7 @@
+<!--suppress HtmlDeprecatedAttribute -->
 <div style="display: flex;">
-<H1>Alfred Zoxide</H1>
-<img src="images/icon.png" style="margin-left: 20px; margin-top: 40px; width: 40px; height: 40px;" alt="Logo"/>
+<img src="images/icon.png" style="margin: 40px 20px 0; width: 40px; height: 40px;" alt="Logo"/>
+<h1>Alfred Zoxide</h1>
 </div>
 
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yihou/alfred-zoxide?sort=semver&style=flat-square)](https://github.com/yihou/alfred-zoxide/releases)
