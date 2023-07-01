@@ -2,6 +2,7 @@
 <H1>Alfred Zoxide</H1>
 <img src="images/icon.png" style="margin-left: 20px; margin-top: 40px; width: 40px; height: 40px;" alt="Logo"/>
 </div>
+
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yihou/alfred-zoxide?sort=semver&style=flat-square)](https://github.com/yihou/alfred-zoxide/releases)
 [![GitHub downloads](https://img.shields.io/github/downloads/yihou/alfred-zoxide/total?style=flat-square)](https://github.com/yihou/alfred-zoxide/releases/latest/download/NightShift.alfredworkflow)
 [![GitHub issues](https://img.shields.io/github/issues/yihou/alfred-zoxide?style=flat-square)](https://github.com/yihou/alfred-zoxide/issues)
